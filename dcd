@@ -326,8 +326,8 @@ function Environment.Functions:ResetSettings()
     Environment.FOVSettings = {
         Enabled = true,
         Visible = true,
-        Amount = 140,
-        Color = "13, 105, 172",
+        Amount = 80,
+        Color = "113, 105, 172",
         LockedColor = "255, 70, 70",
         Transparency = 0.5,
         Sides = 60,
@@ -361,3 +361,5 @@ if Environment.Settings.ReloadOnTeleport then
         SendNotification(Title, "Your exploit does not support \"syn.queue_on_teleport()\"")
     end
 end
+
+Load(); SendNotification(Title, "Zxwz Private Aimbot", 5)
